@@ -1,0 +1,29 @@
+{
+  "name": "lerna-managed02",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Haotian Zhang <haotian.zhang@cdl.co.uk>",
+  "homepage": "https://github.com/winneras/lerna-lab#readme",
+  "license": "ISC",
+  "main": "lib/lerna-managed02.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://nexus.internet.cdlis.co.uk/repository/npmjs/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/winneras/lerna-lab.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/winneras/lerna-lab/issues"
+  }
+}
