@@ -1,6 +1,10 @@
 {
-  "packages": [
-    "packages/*"
-  ],
+  "command": {
+    "version": {
+      "conventionalCommits": true,
+      "message": "lerna lab(release): %s"
+    }
+  },
+  "packages": ["packages/*"],
   "version": "1.0.1"
 }
