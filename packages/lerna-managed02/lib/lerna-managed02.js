@@ -3,6 +3,5 @@
 module.exports = lernaManaged02;
 
 function lernaManaged02() {
-    // TODO something
-    // Add mock new feature
+    // mocking a feature 1 complete
 }
